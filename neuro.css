@@ -1,0 +1,26 @@
+body #body {
+	min-height:400px;
+}
+
+h1,nav {
+	text-align:center;
+}
+
+#main {
+	height:200px;
+}
+
+#main:after {
+	content : "";
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	background-image: url(meadow.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 219px;
+	opacity : 0.2;
+	z-index: -1;
+}
